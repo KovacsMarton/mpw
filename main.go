@@ -395,5 +395,5 @@ func generate(config *Config, length int, quantity int) {
 
 }
 func printUsage() {
-	fmt.Printf("\n\nUsage:\n'mpw config'   			     - to update password generation rules.\n'mpw generate <length> <quantity>'   - to generate passwords.\n\n<length> is an integer between 6 and 50, if not specified, the value defaults to 16\n<Quantity> specifies the number of passwords to be generated. Default value: 4, Maximum: 100")
+	fmt.Printf("\n\nUsage:\n'mpw config'   			     - to update password generation rules.\n'mpw generate <length> <quantity>'   - to generate passwords.\n\n<length> is an integer between 6 and 50, if not specified, the value defaults to 16\n<Quantity> specifies the number of passwords to be generated. Default value: 4, Maximum: 100\n")
 }
