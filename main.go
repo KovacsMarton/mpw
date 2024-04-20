@@ -124,7 +124,7 @@ func main() {
 func changeConfig(config *Config) {
 	answers := []string{}
 	prompt := &survey.MultiSelect{
-		Message: "\nCreate a new configuration. The generated passwords:",
+		Message: "\nCreating a new configuration...",
 		Help:    "Currently active config options are marked with a checkmark, but they do not carry over when creating a new configuration. Please select all the options that you need.\nTo keep current changes, send an interrupt.",
 		Options: []string{"1. Can include Numbers", "2. Can include lowercase letters", "3. Can include uppercase letters", "4. Begin with a letter", "5. Can include symbols", "6. Don't use similar characters", "7. Don't use a character more than once"},
 	}
